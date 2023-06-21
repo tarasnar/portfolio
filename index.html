@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+    <script src="logic.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="header-text">Taras Narepekha, Front-end developer</h1>
+        <nav id="desktop-nav">
+            <a href="#about">About me</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+        <div class="hamburger">
+            <button id="hamburger-button"></button>
+            <nav id="mobile-nav">
+                <a href="#about">About me</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contacts">Contacts</a>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <h2>About me</h2>
+        <img id="me" src="https://64.media.tumblr.com/a85c04f2afe4b1cc6df7d150333132dc/tumblr_np7g6xRx101spt8rlo1_500.pnj" alt="Myself handsome">
+        <p>Hi, I'm Taras Narepekha. I've been studying Front-End for 2 months now.</p>
+        <p>For me programming is not just a job, it's a hobby.</p>
+        <p>I'm open to new knowledge, and, I like to study new technologies and apply them in practice.</p>
+        <p><b>Skills:</b> HTML, CSS, JS.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <img id="utahpot" src="portfolio.jpg" alt="Utahpot Project">
+        <p>Utahpot</p>
+        <button class="open-window">Know More</button>
+        <div class="window">
+            <p>This is a top-secret project so you won't see any links about it throughout here.</p>
+            <br>
+            <p>A web-viewer based on revolutionary WebGPU API me and my college buddies doing as a project,
+                with high hopes of it growing into a start-up. As soon as we have something decent on our hands,
+                I'll let you sneak-a-peek :)</p>
+        </div>
+    </section>
+    <section id="contacts">
+        <h2 id="contacts-header">Contacts</h2>
+        <p id="contacts-text">E-mail: <a href="mailto:myemail@emailhost.com">myemail@emailhost.com</a> <br> Phone number: <a href="tel:380667771337">380667771337</a></p>
+        <a id="github" href="https://github.com/tarasnar" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" alt="GitHub Logo"></a>
+    </section>
+    <footer>
+        <p id="footer-text">Taras Narepekha <br> Year 2023</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,206 @@
+@media screen and (max-width: 600px) {
+    /* Hide the default menu */
+    #desktop-nav {
+        display: none;
+    }
+
+    /* Show the toggle button */
+    .hamburger {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    /* Hide the default menu */
+    #desktop-nav {
+        display: block;
+    }
+
+    /* Show the toggle button */
+    .hamburger {
+        display: none;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tilt Warp', cursive;
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #0f0657;
+    background-size: cover;
+}
+
+header h1 {
+    padding: 0 10px 0 10px;
+}
+
+#desktop-nav {
+    font-size: 24px;
+}
+
+#desktop-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+}
+
+#desktop-nav a:hover {
+    color: #cd2ea3;;
+}
+
+#me {
+    height: 60%;
+    width: 30%;
+}
+
+#about {
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: column nowrap;
+    height: 100%;
+    width: 100%;
+    background-color: #0f0657;
+    background-size: cover;
+}
+
+#about p {
+    padding: 0 10px 0 10px;
+}
+
+#utahpot {
+    height: 60%;
+    width: 60%;
+}
+
+#portfolio {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: #0f0657;
+    background-size: cover;
+}
+
+#contacts {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    font-size: 24px;
+    background-color: #0f0657;
+}
+
+#contacts-text {
+    color: white;
+}
+
+#contacts-header {
+    color: white;
+}
+
+p a {
+    text-decoration: none;
+    color: white;
+}
+
+p a:hover {
+    color: #cd2ea3;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+    color: white;
+    font-size: 24px;
+    background-color: #0f0657;
+}
+
+#footer-text {
+    color: white;
+}
+
+.open-window {
+    font-size: 24px;
+    border-radius: 12px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+}
+
+.window {
+    display: none;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: auto;
+    width: auto;
+    background-color: #cd2ea3;
+    margin: 0 0 100px 0;
+}
+
+.open-window:hover {
+    color: #cd2ea3;;
+}
+
+#github img {
+    height: 10%;
+    width: 30%;
+}
+
+h2 {
+    margin: 20px 0 0 0;
+}
+
+.hamburger #hamburger-button {
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    background-image: url('hammenu.png');
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+
+
+#mobile-nav {
+    display: none;
+    position: relative;
+    font-size: 16px;
+}
+
+#mobile-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+}
+
+#mobile-nav a:hover {
+    color: #cd2ea3;
+}
