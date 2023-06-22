@@ -1,12 +1,12 @@
 window.onload = () => {
-    const windowBtn = document.querySelector('.open-window');
-    const contentWndw = document.querySelector('.window');
-    contentWndw.style.display = 'none';
-    windowBtn.addEventListener('click', () => {
-        if (contentWndw.style.display === 'none') {
-            contentWndw.style.display = 'block';
+    const windowButton = document.querySelector('.open-window');
+    const contentWindow = document.querySelector('.window');
+    contentWindow.style.display = 'none';
+    windowButton.addEventListener('click', () => {
+        if (contentWindow.style.display === 'none') {
+            contentWindow.style.display = 'block';
         } else {
-            contentWndw.style.display = 'none';
+            contentWindow.style.display = 'none';
         }
     });
 
@@ -16,11 +16,8 @@ window.onload = () => {
     hamBtn.addEventListener('click', () => {
         if (hamMenu.style.display === 'none') {
             hamMenu.style.display = 'block';
-            hamBtn.style.backgroundImage = "url('closemenu.png')";
         } else {
             hamMenu.style.display = 'none';
-            hamBtn.style.backgroundImage = "url('hammenu.png')";
         }
-        ;
     });
 }

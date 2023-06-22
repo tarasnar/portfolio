@@ -29,28 +29,30 @@
 }
 
 header {
-    color: white;
+    color: black;
     display: flex;
-    justify-content: space-between;
+    flex-flow: row nowrap;
     align-items: center;
-    height: 100%;
-    width: 100%;
-    background-color: #0f0657;
-    background-size: cover;
+    justify-content: space-around;
+    height: auto;
+    width: 100vw;
+    background-color: white;
 }
 
 header h1 {
-    padding: 0 10px 0 10px;
+    font-size: 2.5vh;
+    padding: 1vh;
+    font-weight: inherit;
 }
 
 #desktop-nav {
-    font-size: 24px;
+    font-size: 2.5vh;
 }
 
 #desktop-nav a {
-    color: white;
+    color: black;
     text-decoration: none;
-    padding: 0 10px 0 10px;
+    padding: 1vh;
 }
 
 #desktop-nav a:hover {
@@ -58,69 +60,84 @@ header h1 {
 }
 
 #me {
-    height: 60%;
-    width: 30%;
+    height: 46vh;
+    width: 46vh;
 }
 
 #about {
-    color: white;
-    font-size: 24px;
+    color: black;
+    font-size: 2.5vh;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     flex-flow: column nowrap;
-    height: 100%;
-    width: 100%;
-    background-color: #0f0657;
-    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+#about h1 {
+    font-size: 2.5vh;
+    padding: 1vh;
+    font-weight: inherit;
 }
 
 #about p {
-    padding: 0 10px 0 10px;
+    padding: 1vh;
+    text-align: center;
 }
 
 #utahpot {
-    height: 60%;
-    width: 60%;
+    height: 60vh;
+    width: 100vh;
 }
 
 #portfolio {
     display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
+    flex-flow: column nowrap;
     align-items: center;
-    color: white;
-    font-size: 24px;
+    justify-content: center;
+    color: black;
+    font-size: 2.5vh;
     text-align: center;
-    height: 100%;
-    width: 100%;
-    background-color: #0f0657;
-    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding: 1vh;
+    background-color: white;
+}
+
+#portfolio h1 {
+    font-size: 2.5vh;
+    padding: 1vh;
+    font-weight: inherit;
 }
 
 #contacts {
     display: flex;
-    flex-flow: column wrap;
-    align-items: center;
+    flex-flow: column nowrap;
     text-align: center;
-    justify-content: space-evenly;
-    height: 100%;
-    width: 100%;
-    font-size: 24px;
-    background-color: #0f0657;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100vw;
+    font-size: 2.5vh;
+    background-color: white;
+    padding: 1vh;
 }
 
 #contacts-text {
-    color: white;
+    color: black;
 }
 
 #contacts-header {
-    color: white;
+    font-size: 2.5vh;
+    font-weight: inherit;
 }
 
 p a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 p a:hover {
@@ -132,35 +149,39 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15%;
-    width: 100%;
-    color: white;
-    font-size: 24px;
-    background-color: #0f0657;
-}
-
-#footer-text {
-    color: white;
+    height: auto;
+    width: 100vw;
+    color: black;
+    font-size: 2.5vh;
+    background-color: white;
 }
 
 .open-window {
-    font-size: 24px;
-    border-radius: 12px;
-    color: white;
+    font-size: 2.5vh;
+    color: black;
     background-color: transparent;
     border: none;
-    padding: 5px;
+    padding: .5vh;
 }
 
 .window {
     display: none;
     position: absolute;
     border: 2px solid black;
-    border-radius: 6px;
+    border-radius: 10px;
     height: auto;
-    width: auto;
-    background-color: #cd2ea3;
-    margin: 0 0 100px 0;
+    width: 50vw;
+    background-color: white;
+    margin: 0 0 10vh 0;
+}
+
+.window a {
+    text-decoration: none;
+    color: black;
+}
+
+.window a:hover {
+    color: #cd2ea3;
 }
 
 .open-window:hover {
@@ -168,19 +189,14 @@ footer {
 }
 
 #github img {
-    height: 10%;
-    width: 30%;
-}
-
-h2 {
-    margin: 20px 0 0 0;
+    height: 35px;
+    width: 35px;
 }
 
 .hamburger #hamburger-button {
-    margin: 5px;
-    height: 40px;
-    width: 40px;
-    background-image: url('hammenu.png');
+    height: 35px;
+    width: 35px;
+    background-image: url('https://cdn.icon-icons.com/icons2/1660/PNG/512/3844473-hamburger-menu-more-navigation_110336.png');
     background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;
@@ -191,14 +207,14 @@ h2 {
 
 #mobile-nav {
     display: none;
-    position: relative;
-    font-size: 16px;
+    position: absolute;
+    font-size: 2.5vh;
 }
 
 #mobile-nav a {
-    color: white;
+    color: black;
     text-decoration: none;
-    padding: 0 10px 0 10px;
+    padding: 1vh;
 }
 
 #mobile-nav a:hover {
